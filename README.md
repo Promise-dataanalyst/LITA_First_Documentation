@@ -57,4 +57,7 @@ The objective of this Data Analysis project is to generate insight into sales pe
   SELECT * FROM TABLE1
   WHERE CONDITION = TRUE
   ```
+### Data Visualization
+
+![Capture 5](https://github.com/user-attachments/assets/89ad4be8-b081-450a-afd1-e6a8e6f4f9cb)
 
