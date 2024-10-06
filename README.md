@@ -25,12 +25,12 @@ The objective of this Data Analysis project is to generate insight into sales pe
 - from an open sources such as Kaggle or  FRED or any other suite
 
 # TOOLS USED
-- Microsoft Excel [Download Here](https://www.microsoftexcel)
+- Microsoft Excel [Download Here](https://www.microsoftexcel.com)
   1. For Data cleaning,
   2. For Analysis and
   3. For Data Visualization
      
-- SQL-Structured Query Language  [Download Here](https://www.microsoftsql)
+- SQL-Structured Query Language  [Download Here](https://www.microsoftsql.com)
   1. For Quering of Data
   2. 
 - GitHub
