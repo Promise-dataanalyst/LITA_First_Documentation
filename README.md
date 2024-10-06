@@ -33,7 +33,7 @@ The objective of this Data Analysis project is to generate insight into sales pe
 - SQL-Structured Query Language  [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
   1. For Quering of Data
   2. 
-- GitHub
+- GitHub                  [Download Here](https://www.github.com)
   1. For Portfolio Building
   2. For Documentation
   3. 
