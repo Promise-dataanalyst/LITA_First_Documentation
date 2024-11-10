@@ -50,14 +50,22 @@ The objective of this Data Analysis project is to generate insight into sales pe
   - What is the overall sales trend ?
   - Which Product are the top sellers
   - What are the products on the peak sale?
+    I included some lines of queries used in the Data Analysis Expression (DAX)
 ---
   ### Data Analysis
-  In the analysis we included some basic lines of code or queries or even some of the DAX expression
+  In the analysis I included some lines of code or queries or even some of the DAX expression
+  Firstly, get your dataset and transform on the power query editor on power BI.
+  Go to column and check the column distribution to know the how many erros. Then remove duplicates, use filters if neccessary.
+  change the data type and promote header by using  first row as header. 
+  
+  Added column 
+
+= Table.AddColumn(#"Changed Type2", "Age Sort", each if [CF_age band] = "Under 25" 
+
+  
   ```SQL
   SELECT * FROM TABLE1
   WHERE CONDITION = TRUE
   ```
-### Data Visualization
 
-![Capture 5](https://github.com/user-attachments/assets/89ad4be8-b081-450a-afd1-e6a8e6f4f9cb)
 
