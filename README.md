@@ -51,22 +51,13 @@ The objective of this Data Analysis project is to generate insight into sales pe
   - Which Product are the top sellers
   - What are the products on the peak sale?
     I included some lines of queries used in the Data Analysis Expression (DAX)
----
-  ### Data Analysis
-  In the analysis I included some lines of code or queries or even some of the DAX expression
-  Firstly, get your dataset and transform on the power query editor on power BI.
-  Go to column and check the column distribution to know the how many erros. Then remove duplicates, use filters if neccessary.
-  change the data type and promote header by using  first row as header. 
   
-  Added column 
-
-= Table.AddColumn(#"Changed Type2", "Age Sort", each if [CF_age band] = "Under 25" 
-
-  
-  ```SQL
-  SELECT * FROM TABLE1
-  WHERE CONDITION = TRUE
   ```
+  Added column 
+  
+````
+= Table.AddColumn(#"Changed Type2", "Age Sort", each if [CF_age band] = "Under 25" 
+````
 
 This data set is an open data from the Incubator Tutor. I cleaned the data by removing duplicates and analyzed data using  Pivot table.
 
@@ -115,6 +106,13 @@ I extracted the first and Lastname from the Email addresses using functions in E
 ![Capture 13](https://github.com/user-attachments/assets/8448ecf9-24b1-44f4-a96e-daf0e8b2873f)
 
 
+ **Used functions to clean dataset appropriately on excel**
+ ```
+=Upper
+=Lower
+=Proper
+=Proper(Trim)  
+````
 ![Screenshot (123)](https://github.com/user-attachments/assets/357bed06-d243-479f-98fb-124ca1243b69)
 
 
