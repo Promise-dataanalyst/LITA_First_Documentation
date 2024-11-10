@@ -52,8 +52,6 @@ The objective of this Data Analysis project is to generate insight into sales pe
   - What are the products on the peak sale?
     I included some lines of queries used in the Data Analysis Expression (DAX)
   
-  ```
-  Added column 
   
 ````
 = Table.AddColumn(#"Changed Type2", "Age Sort", each if [CF_age band] = "Under 25" 
