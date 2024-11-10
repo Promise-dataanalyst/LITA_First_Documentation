@@ -1,5 +1,5 @@
 # LITA_First_Documentation
-This is where I want to put my first Data Analysis with the Incubator Hub
+This is where I want to document some of my first Data Analysis activities with the Incubator Hub
 
 # COURSE: DATA ANALYSIS
 
@@ -67,5 +67,58 @@ The objective of this Data Analysis project is to generate insight into sales pe
   SELECT * FROM TABLE1
   WHERE CONDITION = TRUE
   ```
+
+This data set is an open data from the Incubator Tutor. I cleaned the data by removing duplicates and analyzed data using  Pivot table.
+
+![Capture](https://github.com/user-attachments/assets/7b823a50-c0f4-4e3c-8bbe-a0c7628a59ce)
+
+![Capture 1](https://github.com/user-attachments/assets/74d7a241-3dc6-4345-b6e5-edbf94a7ecd3)
+
+
+![Capture 2](https://github.com/user-attachments/assets/5192eef6-190b-4727-9e41-efec4770d338)
+
+
+![Capture 3](https://github.com/user-attachments/assets/d2178fe6-3176-4bb3-b36d-da0ff1479af1)
+
+![Capture 4](https://github.com/user-attachments/assets/c374ffa0-3f13-4db0-a3d5-0af59660d9d5)
+
+![Capture 5](https://github.com/user-attachments/assets/e6a9561c-6beb-4a03-8a5d-65d9685b4e66)
+
+![Capture 6](https://github.com/user-attachments/assets/fecb8908-222c-46da-80bb-edc4aeb6d19c)
+
+![Capture 7](https://github.com/user-attachments/assets/d1f349ad-aa27-4555-8edf-cb383f0a8c90)
+
+![Capture 8](https://github.com/user-attachments/assets/0325d57f-5449-40ed-9561-c29c3e3cc1e7)
+
+I extracted the first and Lastname from the Email addresses using functions in Excel 
+**To get First name**
+````
+=LEFT(B6, FIND(".",B6)-1)
+````
+**To get Surname**
+```` 
+=MID(B6,FIND(".",B6)+1,FIND("@",B6)-1-FIND(".",B6))
+ `````
+![Capture 9](https://github.com/user-attachments/assets/7b6c9bb2-4767-44fd-99b9-a39040d7409c)
+
+
+**Use Concatenate to join words together example to join first and Surname together with space in between to get Full name**
+
+````
+=CONCATENATE(B6, " ", C6)
+````
+
+![Capture 10](https://github.com/user-attachments/assets/69e38868-c5a3-4734-a660-35927eb7e96f)
+
+**Used Map for States and Country**
+
+![Capture 13](https://github.com/user-attachments/assets/8448ecf9-24b1-44f4-a96e-daf0e8b2873f)
+
+
+![Screenshot (123)](https://github.com/user-attachments/assets/357bed06-d243-479f-98fb-124ca1243b69)
+
+
+![Screenshot (124)](https://github.com/user-attachments/assets/de3170ca-2af2-42d1-8d25-6f3913941e50)
+
 
 
